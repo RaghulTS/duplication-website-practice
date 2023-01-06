@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+li, ul {
+    list-style-type: none;
+    display: flex;
+    padding: 10px;
+}
+.logo {
+    float: left;
+}
+.navbar {
+    padding-top: 18px;
+    float: right;
+    display: block;
+}
+.headerLink {
+    text-decoration: none;
+    color: white;
+    border: none;
+}
+
+.total-container1 {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(238, 238, 238);
+    margin: auto;
+    width: 90%;
+}
+.icons {
+    height: 20px;
+    width: 20px;
+}
+.support {
+    display: flex;
+    justify-content: space-between;
+    padding: 3px;
+}
+.largeImg {
+    margin: auto;
+    width: 100%;
+    height: 500px;
+}
+.bigPhoto {
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.submission {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+
+
+    
+}
+.submission-title div {
+    display: flex;
+    margin: 4px;
+    padding: 10px;
+}
+
+.submission div {
+    padding: 10px;
+}
+.sub-police-hashtag {
+    padding-left: 2px;
+    margin-left: 3px;
+    background-color: blue;
+    color: white;
+}
+.dash-board-btn {
+    background-color: blue;
+    color: white;
+    height: 50px;
+    border: 0;
+    width: 200px;
+}
+
+.venue {
+    background-color: antiquewhite;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.secondNav {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    /* padding-top: 40px; */
+}
+.secondNav a {
+    text-decoration: none;
+    margin-top: 30%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin: 10px;
+
+}
+.sideLine {
+    border-right: 2px solid darkgray;
+    border-left: 2px solid darkgray;
+}
+.header2 {
+    margin: auto;
+    width: 90%;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+.sideLine:hover {
+    background-color: gray;
+}
